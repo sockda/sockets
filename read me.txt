@@ -1,6 +1,6 @@
 ═════════════════════════════════════════════════════════════════════════════
 
-sockets chat anonymous
+sockets chat anonymous v0.45
 
 1. install python if you already have it is not necessary.
 2. put the server ip in client.py (line 18)
