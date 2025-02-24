@@ -1,4 +1,4 @@
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+══════════════════════════════════════════════════════════════════════════════
 
 sockets chat anonymous
 
@@ -6,7 +6,7 @@ sockets chat anonymous
 2. open main.py.
 3. open client.py without closing main.py as the connection will be lost. 
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+══════════════════════════════════════════════════════════════════════════════
 
 sockets terms and conditions
 1. acceptance of terms and conditions
