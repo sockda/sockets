@@ -10,7 +10,7 @@ def handle_client(client_socket, clients):
 ██████╔╝╚█████╔╝╚█████╔╝██║░╚██╗███████╗░░░██║░░░██████╔
 ╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═════
 """
-    welcome_message +="═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  v0.45  ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═"
+    welcome_message +="════════════════════════  v0.45  ════════════════════════"
 
     client_socket.send(welcome_message.encode("utf-8"))
     while True:
