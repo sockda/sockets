@@ -1,0 +1,47 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+sockets chat anonymous
+
+1. install python if you already have it is not necessary.
+2. open main.py.
+3. open client.py without closing main.py as the connection will be lost. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+sockets terms and conditions
+1. acceptance of terms and conditions
+by accessing and using this anonymous global chat, you agree to be bound by
+these terms and conditions. if you do not agree with any of these terms, 
+do not use this service.
+
+2. description of the service
+this anonymous global chat allows users to communicate without revealing 
+their identity. we strive to maintain a safe and respectful environment 
+for all participants.
+
+3. acceptable use
+responsible behavior: users must behave in a respectful and polite manner. 
+offensive, defamatory, threatening, harassing, or hateful messages 
+will not be tolerated.
+
+confidentiality: although the chat is anonymous, you must 
+respect the privacy of other users. you must not attempt to reveal 
+the identity of other participants.
+
+prohibition of illegal content: it is prohibited to share content that is 
+illegal, inappropriate, or infringes on the rights of others.
+
+4. privacy and personal data
+anonymity: we do not collect personally identifiable information. however,
+usage data and other non-personal information may be collected to 
+improve the service.
+
+confidentiality: we will not share your data with third parties, 
+except as required by law.
+
+5. exclusion of liability
+we do not guarantee the continued availability of the service or the 
+accuracy of the information shared by users. we are not responsible for 
+the content posted by users of our service.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
