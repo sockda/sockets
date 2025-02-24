@@ -15,7 +15,7 @@ def receive_messages(client_socket):
 
 def main():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect(("192.168.1.88", 9999))  # [ IP SERVER ]
+    client_socket.connect(("192.168.1.88", 9999))  # ( IP SERVER )
     print("Connected to the server.")
 
     receive_thread = threading.Thread(target=receive_messages, args=(client_socket,))
