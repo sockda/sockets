@@ -10,7 +10,8 @@ def handle_client(client_socket, clients):
 ██████╔╝╚█████╔╝╚█████╔╝██║░╚██╗███████╗░░░██║░░░██████╔
 ╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═════
 """
-    welcome_message +="════════════════════════  v0.45  ════════════════════════"
+    welcome_message +="═══════════════════════  v0.50.4  ═══════════════════════"
+    welcome_message +="\n"
 
     client_socket.send(welcome_message.encode("utf-8"))
     while True:
@@ -36,14 +37,25 @@ def main():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind(("0.0.0.0", 9999))
     server_socket.listen(5)
-    print("Server started, waiting for connections...")
+    print("server started version0.50.4")
+    print("")
+    print(" ████████╗██╗░░██╗██╗░░██╗██╗")
+    print(" ╚══██╔══╝██║░░██║╚██╗██╔╝██║")
+    print(" ░░░██║░░░███████║░╚███╔╝░██║")
+    print(" ░░░██║░░░██╔══██║░██╔██╗░╚═╝")
+    print(" ░░░██║░░░██║░░██║██╔╝╚██╗██╗")
+    print(" ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝")
+    print("")
+    print("══════════════════════════════")
+    print("")
+
 
     clients = []
 
     while True:
         client_socket, addr = server_socket.accept()
         clients.append(client_socket)
-        print(f"Connection established with {addr}")
+        print(f"connection established")
         client_thread = threading.Thread(target=handle_client, args=(client_socket, clients))
         client_thread.start()
 
