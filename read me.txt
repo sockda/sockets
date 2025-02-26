@@ -1,11 +1,17 @@
+         ░██████╗░█████╗░░█████╗░██╗░░██╗███████╗████████╗░██████╗
+         ██╔════╝██╔══██╗██╔══██╗██║░██╔╝██╔════╝╚══██╔══╝██╔════╝
+         ╚█████╗░██║░░██║██║░░╚═╝█████═╝░█████╗░░░░░██║░░░╚█████╗░
+         ░╚═══██╗██║░░██║██║░░██╗██╔═██╗░██╔══╝░░░░░██║░░░░╚═══██╗
+         ██████╔╝╚█████╔╝╚█████╔╝██║░╚██╗███████╗░░░██║░░░██████╔
+         ╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═════
+
 ═════════════════════════════════════════════════════════════════════════════
 
-sockets chat anonymous v0.45
+sockets chat anonymous
 
 1. install python if you already have it is not necessary.
-2. put the server ip in client.py (line 18)
-3. open main.py.
-4. open client.py without closing main.py as the connection will be lost. 
+2. open main.py.
+3. open client.py without closing main.py as the connection will be lost. 
 
 ═════════════════════════════════════════════════════════════════════════════
 
